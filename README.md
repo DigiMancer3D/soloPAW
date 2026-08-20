@@ -66,8 +66,8 @@ soloPAW/
 │ [ Cyberpunk ]          [ Megabonk ]           [ Editing / Krita ]│
 ├───────────────────────────────┬──────────────────────────────────┤
 │ Available Profiles            │ Current State                    │
-│ Cyberpunk — v2.8              │ ACTIVE NOW: Cyberpunk — v2.8     │
-│ Megabonk — Direct Keys        │ AUTO-RELOAD: Cyberpunk — v2.8    │
+│ Cyberpunk ,  v2.8              │ ACTIVE NOW: Cyberpunk ,  v2.8     │
+│ Megabonk ,  Direct Keys        │ AUTO-RELOAD: Cyberpunk ,  v2.8    │
 │ Editing                       │                                  │
 │ [Activate] [Auto-Reload]      │ [Service Doctor]                 │
 │ [Import] [Public Export]      │                                  │
@@ -105,7 +105,7 @@ The Studio source here is the **v0.1.0-rc.1 release-sealed build** and retains i
 
 ## 🐭 Why not just use a mouse with a full side numpad?
 
-A full MMO/numpad mouse can be excellent when raw shortcut count is the priority—coding and editing are obvious examples. soloPAW's gameplay design favors **fewer but more spatially distinct controls**, with context and a shift layer multiplying them.
+A full MMO/numpad mouse can be excellent when raw shortcut count is the priority, coding and editing are obvious examples. soloPAW's gameplay design favors **fewer but more spatially distinct controls**, with context and a shift layer multiplying them.
 
 The G502 layout makes thumb buttons, top buttons, wheel click, left/right wheel tilt, primary clicks, and wheel directions identifiable by physical location while still achieving high action density.
 
@@ -139,61 +139,4 @@ A deliberately simpler direct-key profile for controls that need ordinary physic
 
 ---
 
-## 🔒 Privacy / streaming
 
-Before sharing publicly:
-
-```bash
-./scripts/doctor.sh
-```
-
-Do not upload your home directory, Input Remapper journals, shell history, `.gitconfig`, token files, or raw desktop screenshots without reviewing them. See [PRIVACY.md](docs/PRIVACY.md).
-
----
-
-## 🚀 Put soloPAW on GitHub
-
-Recommended terminal authentication:
-
-```bash
-sudo pacman -S --needed git github-cli
-gh auth login --web --git-protocol https
-gh auth status
-```
-
-Then from this repository root:
-
-```bash
-git init -b main
-git add .
-git status
-git commit -m "Initial soloPAW public release"
-gh repo create soloPAW --public --source=. --remote=origin --push
-```
-
-Read [GITHUB_AUTH_AND_UPLOAD.md](docs/GITHUB_AUTH_AND_UPLOAD.md) first, especially if you want a fine-grained personal access token instead.
-
----
-
-## ✅ Verify / package
-
-```bash
-./scripts/doctor.sh
-./scripts/package_release.sh
-```
-
-`dist/` is gitignored so release archives do not clutter source history.
-
----
-
-## 🤝 Contributions
-
-See [CONTRIBUTING.md](CONTRIBUTING.md). Profile contributions should document hardware, OS, Input Remapper version, game/app, required in-game binding changes, and real runtime testing.
-
----
-
-## 📜 License and trademarks
-
-A project license has **not been selected on the user's behalf**. Choose one before inviting outside reuse/contributions; see [LICENSE_OPTIONS.md](LICENSE_OPTIONS.md).
-
-Logitech, G502, Cyberpunk 2077, CD PROJEKT RED, Megabonk, Krita, and other product names belong to their respective owners. Names are used only for compatibility/reference. No affiliation or endorsement is implied.
