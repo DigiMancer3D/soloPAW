@@ -1,0 +1,13 @@
+{
+  "repository_release": "v0.1.0-rc.1",
+  "profile_switcher": "v0.2.1",
+  "controller_map_studio": "v0.1.0-rc.1",
+  "cyberpunk_profile": "v2.8-JDirect-ScanH-QuickW",
+  "megabonk_profile": "v1.1-DirectKeys-Esc",
+  "cyberpunk_reference_coverage": {
+    "covered_rows": 66,
+    "reviewed_rows": 87,
+    "percent": 75.9
+  },
+  "license": "NOT_SELECTED"
+}

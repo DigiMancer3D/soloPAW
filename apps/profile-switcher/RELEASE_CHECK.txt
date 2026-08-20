@@ -1,0 +1,37 @@
+soloPAW Profile Switcher v0.2.0 release validation
+UTC: 2026-08-18 20:26:09
+
+[1] Python compile
+PASS
+
+[2] Unit tests
+test_atomic_json (test_core.CoreTests.test_atomic_json) ... ok
+test_default_slots (test_core.CoreTests.test_default_slots) ... ok
+test_privacy_audit_catches_generic_home_path (test_core.CoreTests.test_privacy_audit_catches_generic_home_path) ... ok
+test_profile_validation (test_core.CoreTests.test_profile_validation) ... ok
+test_sanitizer_strips_origin_hash (test_core.CoreTests.test_sanitizer_strips_origin_hash) ... ok
+test_megabonk_is_direct_key_profile (test_public_profiles.PublicProfileTests.test_megabonk_is_direct_key_profile) ... ok
+test_no_origin_hash_or_personal_paths (test_public_profiles.PublicProfileTests.test_no_origin_hash_or_personal_paths) ... ok
+test_profiles_are_valid_mapping_lists (test_public_profiles.PublicProfileTests.test_profiles_are_valid_mapping_lists) ... ok
+test_profiles_exist (test_public_profiles.PublicProfileTests.test_profiles_exist) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.002s
+
+OK
+
+[3] Shell syntax
+PASS install.sh
+PASS setup_dependencies.sh
+PASS run.sh
+PASS uninstall.sh
+
+[4] Privacy audit
+PRIVACY AUDIT PASS — 14 text files checked
+
+[5] GUI smoke
+GUI smoke PASS
+
+[6] Public profile SHA256
+c9294a0a7243041cd2ef5ce1e90532d5d8ec02ff0e855cb81c968a8768790b9e  profiles/public/soloPAW-Cyberpunk2077-v2.5-ContextSafe-RaceCameraMenus.json
+a5563f3384122bcd88f50c7c3922debbafd8500af8395739ef6ce48a835220a0  profiles/public/soloPAW-Megabonk-v1.1-DirectKeys-Esc.json

@@ -1,0 +1,15 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=soloPAW Controller Map Studio
+GenericName=Controller Mapping Editor
+Comment=WYSIWYG controller-map, G502 remapper, and Cyberpunk binding-table editor
+Exec=@EXEC@ %f
+TryExec=@TRYEXEC@
+Icon=solopaw-controller-map-studio
+Terminal=false
+Categories=Graphics;Utility;
+MimeType=application/x-solopaw-udata;
+StartupNotify=true
+StartupWMClass=Solopawcontrollermapstudio
+Keywords=controller;mapping;G502;Cyberpunk;WYSIWYG;remapper;soloPAW;
