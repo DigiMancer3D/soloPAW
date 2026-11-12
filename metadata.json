@@ -1,0 +1,18 @@
+{
+  "KPackageStructure": "Plasma/Applet",
+  "KPlugin": {
+    "Id": "org.digimancer3d.solopaw.quickwidget",
+    "Name": "soloPAW · Quick Presets 1·2·3",
+    "Description": "Three one-click quick presets for the soloPAW Profile Switcher; double-click opens the full application, with live Input Remapper status",
+    "Icon": "solopaw-quick-switch",
+    "Category": "Utilities",
+    "Version": "0.1.4",
+    "Website": "https://github.com/DigiMancer3D/soloPAW",
+    "Authors": [
+      {
+        "Name": "DigiMancer3D / soloPAW"
+      }
+    ]
+  },
+  "X-Plasma-API-Minimum-Version": "6.0"
+}
